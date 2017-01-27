@@ -1,0 +1,78 @@
+h1 {
+  text-align: center;
+}
+
+#img_languages {
+  max-width: 100%;
+  padding-top: 20px;
+}
+
+.jumbotron {
+  background-image: url(https://c1.staticflickr.com/1/748/20445410340_c1a0fe6a6a_b.jpg);
+}
+
+.jumbo_title {
+  color: #f49090;
+  text-shadow: 2px 2px #000000;
+}
+
+#logo {
+  max-height: 100%;
+}
+
+.jumbo_text {
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+.list_title {
+  text-align: center;
+}
+
+.list {
+  padding-left: 40%;
+}
+
+#img_typing {
+  max-width: 100%;
+  border-radius: 2%;
+}
+
+.social-icons .fa{
+  font-size: 2em;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  border-radius: 10%;
+  box-shadow: 2px 2px 3px #ffffff;
+}
+
+.social-icons .fa-facebook {
+  background-color: #3C599F;
+}
+
+@keyframes hvr-bob {
+  0% {transform: translateY(-8px);}
+  50% {transform: translateY(-4px);}
+  100% {transform: translateY(-8px);}
+}
+
+@keyframes hvr-bob-float {
+  100% {transform: translateY(-8px);}
+}
+
+.hvr-bob {
+  display: inline-block;
+}
+
+.hvr-bob:hover {
+  animation-name: hvr-bob-float, hvr-bob;
+  animation-duration: .3s, 1.5s;
+  animation-delay: 0s, 0.3s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal, alternate;
+}
